@@ -1,0 +1,62 @@
+#TodoText {
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  /* color: gold; */
+  font-weight: bolder;
+  width: 18rem;
+  height: 2rem;
+}
+
+#Submit {
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  height: 2.5rem;
+  width: 2.2rem;
+  background-color: #7952b3;
+  color: #ffd700;
+  font-weight: bolder;
+}
+
+#Submit:hover,
+#check-style:hover,
+#trash-style:hover,
+#plus-style:hover {
+  background-color: #ffd700;
+  color: #000000;
+  cursor: pointer;
+}
+
+#TodoStyle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid #ffd700;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 2.5rem;
+  width: 25rem;
+  color: black;
+  font-weight: bolder;
+}
+
+#idContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#check-style,
+#trash-style,
+#plus-style {
+  background-color: #7952b3;
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  height: 2.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
